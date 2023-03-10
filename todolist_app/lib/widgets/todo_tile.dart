@@ -23,7 +23,7 @@ class TodoTile extends StatelessWidget {
             value: taskCompleted,
             onChanged: onChanged,
             activeColor: Colors.yellow[100],
-            checkColor: Colors.blueGrey[300],
+            checkColor: Colors.black,
           ),
           Text(
             taskName,
